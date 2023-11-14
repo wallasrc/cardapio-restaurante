@@ -58,3 +58,6 @@ button:hover{
 .btn-clicked{
     background-color: #daa520;
 }
+.btn-clicked:hover{
+    background-color: #daa520;
+}

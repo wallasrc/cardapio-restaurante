@@ -11,13 +11,9 @@ export function filtraCategoria(categoriaNome) {
 }
 
 export function filtraInput(textoDigitado) {
-  
-
         return produtos.filter(
             (produto) =>
                 produto.nome.toLowerCase().includes(textoDigitado.toLowerCase()) ||
                 produto.descricao.toLowerCase().includes(textoDigitado.toLowerCase())
         )
-
-    
 }
